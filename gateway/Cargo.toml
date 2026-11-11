@@ -42,5 +42,5 @@ secrecy = { workspace = true }
 uuid = { workspace = true }
 tensorzero-unsafe-helpers = { path = "../internal/tensorzero-unsafe-helpers" }
 flate2 = "1.1.5"
-zstd = "0.13.3"
-brotli = "8.0.2"
+zstd = "0.14.3"
+brotli = "9.1.1"

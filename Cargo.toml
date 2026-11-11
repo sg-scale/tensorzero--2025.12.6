@@ -47,7 +47,7 @@ reqwest-eventsource = "0.6.0"
 async-stream = "0.3.5"
 async-trait = "0.1.89"
 http = "1.4.0"
-infer = "0.19.0"
+infer = "0.22.0"
 tokio-stream = "0.1.15"
 tokio = { version = "1.48.0", features = ["full"] }
 tracing = { version = "0.1.43", features = ["log"] }
@@ -70,9 +70,9 @@ minijinja = { version = "2.14.0", features = [
 url = "2.5.4"
 google-cloud-auth = "1.3.0"
 serde-untagged = "0.1.8"
-object_store = { version = "0.12.2", features = ["serde", "aws", "gcp"] }
-rand = "0.9.1"
-ts-rs = { version = "11.1.0", features = [
+object_store = { version = "0.14.2", features = ["serde", "aws", "gcp"] }
+rand = "0.10.3"
+ts-rs = { version = "12.0.1", features = [
     "serde-compat",
     "serde-json-impl",
     "uuid-impl",
@@ -82,11 +82,11 @@ ts-rs = { version = "11.1.0", features = [
 ] }
 pin-project = "1.1.10"
 chrono = { version = "0.4.41", features = ["serde"] }
-git2 = { version = "0.20.3", default-features = false }
+git2 = { version = "0.21.0", default-features = false }
 tracing-opentelemetry-instrumentation-sdk = { version = "0.32.1", features = [
     "tracing_level_info",
 ] }
-tower-http = { version = "0.6.7", features = ["trace"] }
+tower-http = { version = "0.7.1", features = ["trace"] }
 mime = { git = "https://github.com/hyperium/mime", rev = "1ef137c7358fc64e07c8a640e4e9ba2a784b7f7d", features = [
     "serde1",
 ] }
@@ -99,7 +99,7 @@ sqlx = { version = "0.9.0-alpha.1", features = [
     "uuid",
     "sqlx-toml",
 ] }
-rlt = "0.2.1"
+rlt = "0.5.0"
 metrics-exporter-prometheus = { version = "0.18.1", features = [
     "http-listener",
 ], default-features = false }
