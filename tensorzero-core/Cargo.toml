@@ -90,16 +90,16 @@ aws-sdk-sagemakerruntime = { version = "1.93.0", features = [
 ], default-features = false }
 aws-smithy-runtime-api = "1.9.1"
 eventsource-stream = "0.2.3"
-opentelemetry_sdk = "0.31.0"
-opentelemetry = "0.31.0"
-tracing-opentelemetry = "0.32.0"
-opentelemetry-otlp = { version = "0.31.0", features = [
+opentelemetry_sdk = "0.33.1"
+opentelemetry = "0.33.1"
+tracing-opentelemetry = "0.34.0"
+opentelemetry-otlp = { version = "0.32.0", features = [
     "grpc-tonic",
     "tls",
     "tls-roots",
 ] }
-opentelemetry-semantic-conventions = "0.31.0"
-init-tracing-opentelemetry = "0.34.0"
+opentelemetry-semantic-conventions = "0.33.1"
+init-tracing-opentelemetry = "0.44.0"
 tracing-futures = { version = "0.2.5", features = ["futures-03"] }
 tracing-opentelemetry-instrumentation-sdk = { workspace = true, features = [
     "http",
@@ -130,7 +130,7 @@ tensorzero-auth = { path = "../internal/tensorzero-auth" }
 autopilot-client = { path = "../internal/autopilot-client" }
 git2 = { workspace = true, optional = true }
 schemars = { workspace = true, features = ["uuid1"] }
-opentelemetry-http = "0.31.0"
+opentelemetry-http = "0.32.0"
 # durable.workspace = true
 regex = { workspace = true }
 
