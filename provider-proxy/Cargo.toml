@@ -26,7 +26,7 @@ reqwest.workspace = true
 rustls = "0.23.35"
 serde = { workspace = true }
 serde_json.workspace = true
-sha2 = "0.10.9"
+sha2 = "0.11.1"
 tokio.workspace = true
 tokio-rustls = "0.26.1"
 tracing = "0.1.43"
@@ -39,7 +39,7 @@ workspace = true
 
 [dev-dependencies]
 axum.workspace = true
-rand = "0.9.1"
+rand = "0.10.3"
 async-stream.workspace = true
 reqwest-eventsource.workspace = true
 futures-util = "0.3.31"

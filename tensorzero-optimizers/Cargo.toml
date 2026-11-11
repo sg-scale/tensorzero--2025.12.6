@@ -55,7 +55,7 @@ evaluations = { path = "../evaluations" }
 minijinja = { workspace = true }
 paste = "1.0.15"
 tempfile = "3.21.0"
-base64 = "0.22.1"
+base64 = "0.23.1"
 tokio-stream = { workspace = true }
 tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
 
